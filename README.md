@@ -1,6 +1,6 @@
 # Code Crew: Multi-Language AI Assistant
 
-Streamlit application that leverages CrewAI's multi-agent framework with Ollama language models to provide intelligent code assistance across 11 programming languages. This tool combines language-specific expertise with local AI processing for secure, offline-capable development support.
+A Streamlit application that leverages CrewAI's multi-agent framework with Ollama language models to provide intelligent code assistance across 11 programming languages. This tool combines language-specific expertise with local AI processing for secure, offline-capable development support.
 
 ## ✨ Features
 
