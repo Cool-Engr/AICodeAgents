@@ -19,8 +19,8 @@ class ProgrammingLanguage(Enum):
     JAVASCRIPT = "JavaScript"
     TYPESCRIPT = "TypeScript"
     JAVA = "Java"
-    KOTLIN = "Kotlin"
-    SWIFT = "Swift"
+    # KOTLIN = "Kotlin"
+    # SWIFT = "Swift"
 
 # Initialize session state
 if 'model' not in st.session_state:
