@@ -91,14 +91,14 @@ LANG_MODEL_CATEGORIES = {
         "category": "☕ Java Enterprise",
         "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "wizardcoder:15b"]
     },
-    "Kotlin": {
-        "category": "🤖 Kotlin/Android",
-        "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "phi3:3.8b"]
-    },
-    "Swift": {
-        "category": "🍏 Swift/iOS",
-        "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "phi3:3.8b"]
-    }
+    # "Kotlin": {
+    #     "category": "🤖 Kotlin/Android",
+    #     "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "phi3:3.8b"]
+    # },
+    # "Swift": {
+    #     "category": "🍏 Swift/iOS",
+    #     "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "phi3:3.8b"]
+    # }
 }
 
 # Sidebar configuration
