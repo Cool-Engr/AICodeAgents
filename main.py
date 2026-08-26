@@ -287,16 +287,16 @@ def create_language_specialist(language):
             "thread-safe Java code that leverages modern features while maintaining backwards compatibility.",
             "Write modern Java using records, streams, and modules with proper concurrency patterns"
         ),
-        "Kotlin": (
-            "You are a JetBrains engineer who helped design Kotlin's coroutines. You write idiomatic Kotlin that leverages extension functions, "
-            "null safety, and coroutine patterns while maintaining interoperability with Java ecosystems.",
-            "Write concise Kotlin with coroutines, extension functions, and sealed classes"
-        ),
-        "Swift": (
-            "You are an Apple Frameworks engineer who specializes in Swift performance optimization. You write safe, expressive Swift code "
-            "that leverages value types, protocol-oriented design, and Swift's concurrency model effectively.",
-            "Write idiomatic Swift with async/await, value semantics, and protocol-oriented design"
-        )
+        # "Kotlin": (
+        #     "You are a JetBrains engineer who helped design Kotlin's coroutines. You write idiomatic Kotlin that leverages extension functions, "
+        #     "null safety, and coroutine patterns while maintaining interoperability with Java ecosystems.",
+        #     "Write concise Kotlin with coroutines, extension functions, and sealed classes"
+        # ),
+        # "Swift": (
+        #     "You are an Apple Frameworks engineer who specializes in Swift performance optimization. You write safe, expressive Swift code "
+        #     "that leverages value types, protocol-oriented design, and Swift's concurrency model effectively.",
+        #     "Write idiomatic Swift with async/await, value semantics, and protocol-oriented design"
+        # )
     }
     
     # Fallback to Python specialization for unsupported languages
