@@ -823,9 +823,9 @@ lang_stats = {
     "C#": ".NET ecosystem leader • Game development with Unity",
     "Java": "Enterprise backend standard • 3 billion devices run Java",
     "Kotlin": "Official Android language • 100% interoperable with Java",
-    # "Swift": "Apple ecosystem standard • Memory safe with modern syntax",
-    # "C": "Systems programming foundation • Powers operating systems and embedded devices",
-    # "C++": "High-performance powerhouse • Widely used in AAA games, finance, and real-time engines"
+    "Swift": "Apple ecosystem standard • Memory safe with modern syntax",
+    "C": "Systems programming foundation • Powers operating systems and embedded devices",
+    "C++": "High-performance powerhouse • Widely used in AAA games, finance, and real-time engines"
 }
 
 st.caption(f"💡 **{st.session_state.language} Insight**: {lang_stats.get(st.session_state.language, 'General purpose programming')}")
