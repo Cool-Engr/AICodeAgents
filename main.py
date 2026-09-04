@@ -59,18 +59,18 @@ LANG_MODEL_CATEGORIES = {
         "category": "🐍 Python Specialized",
         "models": ["codellama:python", "deepseek-coder:6.7b", "phi3:3.8b", "stable-code"]
     },
-    "Go": {
-        "category": "🐹 Go Optimized",
-        "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "mistral:7b-instruct"]
-    },
-    "Rust": {
-        "category": "🦀 Rust Focused",
-        "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "wizardcoder:15b"]
-    },
-    "C": {
-        "category": "⚙️ C Systems",
-        "models": ["codellama:70b-instruct", "deepseek-coder:1.3b-base", "starcoder2:15b", "phind-codellama:34b"]
-    },
+    # "Go": {
+    #     "category": "🐹 Go Optimized",
+    #     "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "mistral:7b-instruct"]
+    # },
+    # "Rust": {
+    #     "category": "🦀 Rust Focused",
+    #     "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "wizardcoder:15b"]
+    # },
+    # "C": {
+    #     "category": "⚙️ C Systems",
+    #     "models": ["codellama:70b-instruct", "deepseek-coder:1.3b-base", "starcoder2:15b", "phind-codellama:34b"]
+    # },
     "C++": {
         "category": "🔫 C++ Performance",
         "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "wizardcoder:15b", "phind-codellama:34b"]
@@ -91,14 +91,14 @@ LANG_MODEL_CATEGORIES = {
         "category": "☕ Java Enterprise",
         "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "wizardcoder:15b"]
     },
-    # "Kotlin": {
-    #     "category": "🤖 Kotlin/Android",
-    #     "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "phi3:3.8b"]
-    # },
-    # "Swift": {
-    #     "category": "🍏 Swift/iOS",
-    #     "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "phi3:3.8b"]
-    # }
+    "Kotlin": {
+        "category": "🤖 Kotlin/Android",
+        "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "phi3:3.8b"]
+    },
+    "Swift": {
+        "category": "🍏 Swift/iOS",
+        "models": ["codellama:70b-instruct", "deepseek-coder:6.7b", "starcoder2:15b", "phi3:3.8b"]
+    }
 }
 
 # Sidebar configuration

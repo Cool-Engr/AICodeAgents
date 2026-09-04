@@ -35,7 +35,7 @@ A Streamlit application that leverages CrewAI's multi-agent framework with Ollam
 ### Required Ollama Models
 The application works best with specialized coding models. Install recommended models:
 ```bash
-# Python-focused models
+# Python focused models
 ollama pull codellama:python
 ollama pull deepseek-coder:6.7b
 
