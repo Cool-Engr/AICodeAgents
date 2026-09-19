@@ -557,29 +557,29 @@ with tab1:
                 }
             ''')
         },
-        "Rust": {
-            "Memory Safety": dedent('''\
-                fn main() {
-                    let mut v = vec![1, 2, 3];
-                    let x = &v[0];
-                    v.push(4); // Invalidates reference
-                    println!("{}", x);
-                }
-            '''),
-            "Concurrency": dedent('''\
-                use std::thread;
+        # "Rust": {
+        #     "Memory Safety": dedent('''\
+        #         fn main() {
+        #             let mut v = vec![1, 2, 3];
+        #             let x = &v[0];
+        #             v.push(4); // Invalidates reference
+        #             println!("{}", x);
+        #         }
+        #     '''),
+        #     "Concurrency": dedent('''\
+        #         use std::thread;
                 
-                fn main() {
-                    let mut data = vec![1, 2, 3];
+        #         fn main() {
+        #             let mut data = vec![1, 2, 3];
                     
-                    thread::spawn(move || {
-                        data.push(4); // Ownership violation
-                    });
+        #             thread::spawn(move || {
+        #                 data.push(4); // Ownership violation
+        #             });
                     
-                    println!("{:?}", data);
-                }
-            ''')
-        },
+        #             println!("{:?}", data);
+        #         }
+        #     ''')
+        # },
         "JavaScript": {
             "Memory Leak": dedent('''\
                 function setupListeners() {
