@@ -471,7 +471,7 @@ def create_crew(task_type, user_input, language):
         )
 
 # Main interface with tabs
-tab1, tab2, tab3 = st.tabs(["🔍 Code Review", "🎓 Code Teaching", "✨ Code Generation"])
+# tab1, tab2, tab3 = st.tabs(["🔍 Code Review", "🎓 Code Teaching", "✨ Code Generation"])
 
 # Tab 1: Code Review (Multi-Language)
 with tab1:
