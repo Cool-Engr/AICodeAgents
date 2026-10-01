@@ -19,8 +19,8 @@ class ProgrammingLanguage(Enum):
     JAVASCRIPT = "JavaScript"
     TYPESCRIPT = "TypeScript"
     JAVA = "Java"
-    # KOTLIN = "Kotlin"
-    # SWIFT = "Swift"
+    KOTLIN = "Kotlin"
+    SWIFT = "Swift"
 
 # Initialize session state
 if 'model' not in st.session_state:
@@ -42,12 +42,12 @@ if 'available_models' not in st.session_state:
     ]
 if 'code_input' not in st.session_state:
     st.session_state.code_input = ""
-# if 'review_results' not in st.session_state:
-#     st.session_state.review_results = None
-# if 'teach_results' not in st.session_state:
-#     st.session_state.teach_results = None
-# if 'generate_results' not in st.session_state:
-#     st.session_state.generate_results = None
+if 'review_results' not in st.session_state:
+    st.session_state.review_results = None
+if 'teach_results' not in st.session_state:
+    st.session_state.teach_results = None
+if 'generate_results' not in st.session_state:
+    st.session_state.generate_results = None
 
 # Configure page
 st.set_page_config(page_title="Code Crew", layout="wide", page_icon="🌐")
